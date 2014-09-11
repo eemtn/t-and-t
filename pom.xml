@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.eemtn.tnt</groupId>
-	<artifactId>angular-rest-springsecurity</artifactId>
+	<artifactId>tandt</artifactId>
 	<version>0.2.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
@@ -59,12 +59,6 @@
 		</plugins>
 	</build>
 	
-	<!-- 
-	<scm>
-		<developerConnection>scm:git:https://github.com/philipsorst/angular-rest-springsecurity.git</developerConnection>
-	</scm>
- -->
-
 	<dependencies>
 
 		<dependency>
