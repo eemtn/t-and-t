@@ -1,0 +1,45 @@
+
+<div class="container">
+  
+  <p>
+    <table class="table table-hover table-condensed">
+    <tr>
+      <th>Object ID</th>
+      <th>Bezeichnung</th>
+      <th>Detailsbezeichnung</th>
+      <th>Art.-Nr.</th>
+	</tr>      
+    <tr ng-repeat='trackObj in trackingObjects'>
+      <td>{{trackObj.objectId}}</td>
+      <td>{{trackObj.name}}</td>
+      <td>{{trackObj.nameSpecific}}</td>
+      <td>{{trackObj.articleId}}</td>
+    </tr>
+    </table>
+  </p>
+   
+  <!-- 
+  
+  <p>
+    <table class="table table-hover table-condensed" ng-controller='MarkerCtrl'>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Bezeichnung</th>
+      <th>Artikelnr.</th>
+      <th>Standort</th>
+      <th>Kunde</th>
+	</tr>      
+    <tr ng-repeat='trackObj in trackableObjects'>
+      <td>{{trackObj.objectid}}</td>
+      <td>{{trackObj.name}}</td>
+      <td>{{trackObj.nameext}}</td>
+      <td>{{trackObj.articelid}}</td>
+      <td>{{trackObj.location}}</td>
+      <td>{{trackObj.client}}</td>
+    </tr>
+    </table>
+  </p>
+  -->
+
+</div>
