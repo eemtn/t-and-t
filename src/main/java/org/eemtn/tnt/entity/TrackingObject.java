@@ -31,6 +31,8 @@ public class TrackingObject implements Entity
 	@Column
 	private String articleId;
 	
+	sss
+	
 	// TODO bound location object to location
 	@Column
 	private String location;
