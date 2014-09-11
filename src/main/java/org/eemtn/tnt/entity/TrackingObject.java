@@ -43,6 +43,9 @@ public class TrackingObject implements Entity
 	
 	@Column
 	private float latitude;
+	
+	@Column
+	private String cellId;
 
 	@JsonView(JsonViews.Admin.class)
 	public String getClientId() {
@@ -123,6 +126,15 @@ public class TrackingObject implements Entity
 
 	public void setLatitude(float latitude) {
 		this.latitude = latitude;
+	}
+	
+	@JsonView(JsonViews.User.class)
+	public String getCellId() {
+		return cellId;
+	}
+	
+	public void setCellId(String cellId) {
+		this.cellId = cellId;
 	}
 	
 	public String toString()
